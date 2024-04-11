@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link id="favicon" rel="icon" type="image/png" href="../assets/favicon.png">
+    <title>Project 1</title>
+
+</head>
+<body onload="onload()">
+    <div class="container">
+        <div id="darkMode">
+            <button id="dark" onclick="darkMode()">Dark Mode</button>
+        </div>
+
+        <h1 id="myName">Andrew Gomoll</h1>
+        <div id="AboutMe">
+            <p>I am in my first year as a fullstack developer at a logistics startup located in Ann Arbor. <br>
+            I'm currently taking one class this semester as I only have a few until I fully complete my degree.</p>
+        </div>
+        <nav id="classesLink">
+            <a id="links" href="html/pageTwo.html">Classes</a>
+        </nav>
+
+     <section id="funStuffAboutMe">
+        <h2 id="funStuffAboutMeText">These are a few things I enjoy</h2>
+        <!--Input scrollable photo collage of different interests. Must be personal photos(Not from internet). When not scrolling, carosel feature, add Links to different websites on each image-->
+        <div id="imageContainer">
+            <a id="soccerImageLink" href="https://www.fifa.com">
+            <img src="assets/socer.jpg" id="SoccerImage">
+            </a>
+            <a id="baseballImageLink" href="https://www.mlb.com">
+            <img src="assets/baseball.jpeg" id="BaseballImage">
+            </a>
+            <a id="runningImageLink" href="https://www.ironman.com">
+            <img src="assets/running.jpg" id="RunningImage">
+            </a>
+        </div>
+     </section>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+<!--TODO:
+1. JS for pics (maybe)
+2. Organize Code
+3. Add info about past classes and assignments in those classes
+-->
